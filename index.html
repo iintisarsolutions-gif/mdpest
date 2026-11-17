@@ -1,0 +1,2221 @@
+<!DOCTYPE html>
+<html lang="ms" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD PEST | Perkhidmatan Kawalan Serangga & Perosak Profesional Malaysia</title>
+    <meta name="description" content="MD PEST menyediakan perkhidmatan kawalan serangga dan haiwan perosak profesional untuk kediaman, pejabat dan premis perniagaan di Malaysia. Hubungi kami untuk pemeriksaan hari ini.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.mdpest.com.my/">
+    <meta name="theme-color" content="#e53935">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="MD PEST | Perkhidmatan Kawalan Serangga & Perosak Profesional">
+    <meta property="og:description" content="Penyelesaian berkesan masalah anai-anai, tikus, lipas, nyamuk dan perosak lain untuk rumah serta premis perniagaan.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.mdpest.com.my/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1584467735871-8e853e843c08?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MD PEST | Kawalan Perosak Profesional">
+    <meta name="twitter:description" content="Perkhidmatan kawalan serangga perosak berkesan untuk kediaman dan premis perniagaan.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1584467735871-8e853e843c08?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "MD PEST",
+      "image": "https://images.unsplash.com/photo-1584467735871-8e853e843c08",
+      "@id": "https://www.mdpest.com.my/#business",
+      "url": "https://www.mdpest.com.my/",
+      "telephone": "+601XXXXXXXXX",
+      "priceRange": "RM",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Alamat Premis Operasi Placeholder",
+        "addressLocality": "Kuala Lumpur",
+        "postalCode": "50000",
+        "addressCountry": "MY"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "08:00",
+        "closes": "19:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/mdpest",
+        "https://www.instagram.com/mdpest"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Pest Control Services",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "MD PEST"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Malaysia"
+      },
+      "description": "Perkhidmatan kawalan serangga dan haiwan perosak profesional termasuk anai-anai, tikus, lipas, nyamuk, semut dan pepijat."
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary: #e53935;
+            --primary-dark: #b71c1c;
+            --primary-light: #ff6f60;
+            --dark: #121212;
+            --gray-dark: #212121;
+            --gray-mid: #616161;
+            --gray-light: #f4f4f6;
+            --white: #ffffff;
+            --accent-red: #ffebee;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--white);
+            color: var(--dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Utility Classes */
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Sticky Navigation */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: rgba(18, 18, 18, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            transition: var(--transition);
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+        }
+
+        .logo {
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--white);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-light);
+        }
+
+        .nav-cta {
+            background-color: var(--primary);
+            color: var(--white) !important;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            font-weight: 700 !important;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: var(--transition);
+        }
+
+        .nav-cta:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, rgba(18,18,18,0.9), rgba(18,18,18,0.7)), url('https://images.unsplash.com/photo-1584467735871-8e853e843c08?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+            padding-top: 80px;
+            color: var(--white);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 3rem;
+            align-items: center;
+            padding: 4rem 0;
+        }
+
+        .hero-content h1 {
+            font-size: 3.25rem;
+            font-weight: 800;
+            line-height: 1.15;
+            margin-bottom: 1.5rem;
+            letter-spacing: -1px;
+        }
+
+        .hero-content h1 span {
+            color: var(--primary-light);
+        }
+
+        .hero-content p {
+            font-size: 1.15rem;
+            color: #e0e0e0;
+            margin-bottom: 2.5rem;
+            max-width: 600px;
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--white);
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: var(--transition);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--white);
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .trust-indicators {
+            display: flex;
+            gap: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            padding-top: 1.5rem;
+        }
+
+        .trust-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .trust-item strong {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary-light);
+        }
+
+        .trust-item span {
+            font-size: 0.85rem;
+            color: #b0b0b0;
+        }
+
+        /* Floating Visual Card in Hero */
+        .hero-card {
+            background: rgba(26, 26, 26, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(229, 57, 53, 0.4);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+
+        .hero-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--white);
+        }
+
+        .hero-card h3 i {
+            color: var(--primary);
+        }
+
+        .pest-tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .pest-tag {
+            background: rgba(229, 57, 53, 0.15);
+            color: var(--white);
+            padding: 0.5rem 0.85rem;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            border: 1px solid rgba(229, 57, 53, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        /* Trust & Problem Section */
+        .section {
+            padding: 6rem 0;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 4rem auto;
+        }
+
+        .section-badge {
+            background-color: var(--accent-red);
+            color: var(--primary);
+            padding: 0.35rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: var(--dark);
+            line-height: 1.2;
+        }
+
+        .problems-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        .problem-card {
+            background-color: var(--gray-light);
+            border-radius: 8px;
+            padding: 2.5rem 2rem;
+            border-left: 4px solid var(--primary);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .problem-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+            background-color: var(--white);
+            border-left-width: 8px;
+        }
+
+        .problem-icon {
+            font-size: 2.25rem;
+            color: var(--primary);
+            margin-bottom: 1.25rem;
+        }
+
+        .problem-card h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: var(--dark);
+        }
+
+        .problem-card p {
+            color: var(--gray-mid);
+            font-size: 0.95rem;
+        }
+
+        /* Services Section */
+        .services-section {
+            background-color: var(--gray-light);
+        }
+
+        .service-showcase-container {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        .service-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .service-row.reverse {
+            direction: rtl;
+        }
+
+        .service-row.reverse > * {
+            direction: ltr;
+        }
+
+        .service-img {
+            height: 100%;
+            min-height: 320px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .service-info {
+            padding: 3rem;
+        }
+
+        .service-category-label {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .service-info h3 {
+            font-size: 1.75rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        .service-info p {
+            color: var(--gray-mid);
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+        }
+
+        .service-meta-list {
+            list-style: none;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .service-meta-list li {
+            font-size: 0.9rem;
+            color: var(--dark);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .service-meta-list li i {
+            color: var(--primary);
+            font-size: 0.8rem;
+        }
+
+        /* Service Grid Compact for remaining services */
+        .service-grid-compact {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .compact-card {
+            background: var(--white);
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+            border: 1px solid rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: var(--transition);
+        }
+
+        .compact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            border-color: var(--primary);
+        }
+
+        .compact-card h4 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: var(--dark);
+        }
+
+        .compact-card p {
+            font-size: 0.9rem;
+            color: var(--gray-mid);
+            margin-bottom: 1.5rem;
+        }
+
+        /* Pricing Packages Section */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 2rem;
+        }
+
+        .pricing-card {
+            background: var(--white);
+            border-radius: 8px;
+            padding: 2.5rem 2rem;
+            border: 1px solid #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .pricing-card.featured {
+            border-color: var(--primary);
+            box-shadow: 0 15px 35px rgba(229, 57, 53, 0.1);
+        }
+
+        .pricing-card.featured::before {
+            content: 'PILIHAN UTAMA';
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--primary);
+            color: var(--white);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        .pricing-header h3 {
+            font-size: 1.35rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        .price-tag {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .pricing-features {
+            list-style: none;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .pricing-features li {
+            font-size: 0.9rem;
+            color: var(--gray-mid);
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+
+        .pricing-features li i {
+            color: var(--primary);
+            margin-top: 0.2rem;
+        }
+
+        /* Work Process Section */
+        .process-section {
+            background-color: var(--dark);
+            color: var(--white);
+        }
+
+        .process-section .section-header h2 {
+            color: var(--white);
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 2rem;
+            position: relative;
+        }
+
+        .process-step {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 8px;
+            padding: 2.5rem 2rem;
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .process-step:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: var(--primary);
+            transform: translateY(-5px);
+        }
+
+        .step-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--primary-light);
+            margin-bottom: 1rem;
+            line-height: 1;
+        }
+
+        .process-step h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: var(--white);
+        }
+
+        .process-step p {
+            color: #b0b0b0;
+            font-size: 0.9rem;
+        }
+
+        /* Gallery Section with Masonry / Asymmetric Layout */
+        .gallery-filters {
+            display: flex;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: var(--gray-light);
+            border: none;
+            padding: 0.6rem 1.25rem;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--gray-mid);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .filter-btn.active, .filter-btn:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: 240px;
+            gap: 1.5rem;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .gallery-item.tall {
+            grid-row: span 2;
+        }
+
+        .gallery-item.wide {
+            grid-column: span 2;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(18,18,18,0.85), transparent);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 1.5rem;
+            color: var(--white);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+
+        .gallery-category-badge {
+            background: var(--primary);
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            width: max-content;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+
+        .gallery-overlay h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+
+        /* Coverage Section */
+        .coverage-section {
+            background-color: var(--gray-light);
+        }
+
+        .coverage-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .coverage-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid rgba(0,0,0,0.05);
+            transition: var(--transition);
+        }
+
+        .coverage-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+
+        .coverage-icon {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .coverage-card h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--dark);
+        }
+
+        .coverage-notice {
+            margin-top: 3rem;
+            background: var(--accent-red);
+            border: 1px solid rgba(229, 57, 53, 0.2);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 0.95rem;
+            color: var(--dark);
+        }
+
+        /* FAQ Section */
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .faq-item {
+            background: var(--white);
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+        .faq-item.active {
+            border-color: var(--primary);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .faq-question {
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 1.25rem 1.5rem;
+            text-align: left;
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--dark);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .faq-question i {
+            color: var(--primary);
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            padding: 0 1.5rem;
+            color: var(--gray-mid);
+            font-size: 0.95rem;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 200px;
+            padding-bottom: 1.25rem;
+        }
+
+        /* Main Inquiry Form Section */
+        .inquiry-section {
+            background: linear-gradient(135deg, var(--dark), var(--gray-dark));
+            color: var(--white);
+        }
+
+        .inquiry-section .section-header h2 {
+            color: var(--white);
+        }
+
+        .inquiry-form-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 3rem;
+            max-width: 800px;
+            margin: 0 auto;
+            backdrop-filter: blur(10px);
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-group.full-width {
+            grid-column: span 2;
+        }
+
+        .form-group label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #e0e0e0;
+        }
+
+        .form-control {
+            background: rgba(255, 255, 255, 0.07);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            padding: 0.9rem 1rem;
+            border-radius: 6px;
+            color: var(--white);
+            font-family: inherit;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .form-control option {
+            background: var(--dark);
+            color: var(--white);
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: #b0b0b0;
+            padding: 5rem 0 2rem 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .footer-col h4 {
+            color: var(--white);
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-col p {
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .footer-links a {
+            color: #b0b0b0;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-light);
+            padding-left: 5px;
+        }
+
+        .footer-contact-info {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .footer-contact-info li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+
+        .footer-contact-info i {
+            color: var(--primary);
+            margin-top: 0.2rem;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        /* Floating WhatsApp Button */
+        .floating-whatsapp {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25d366;
+            color: var(--white);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+            z-index: 999;
+            transition: var(--transition);
+            text-decoration: none;
+        }
+
+        .floating-whatsapp:hover {
+            transform: scale(1.1);
+            background-color: #20ba5a;
+        }
+
+        /* Modal Popup */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(5px);
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            padding: 1rem;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .modal-container {
+            background: var(--white);
+            width: 100%;
+            max-width: 650px;
+            border-radius: 12px;
+            padding: 2.5rem;
+            position: relative;
+            max-height: 90vh;
+            overflow-y: auto;
+            transform: translateY(20px);
+            transition: transform 0.3s ease;
+        }
+
+        .modal-overlay.active .modal-container {
+            transform: translateY(0);
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: var(--gray-light);
+            border: none;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+        }
+
+        .modal-close:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .modal-header {
+            margin-bottom: 2rem;
+        }
+
+        .modal-header h3 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .modal-header p {
+            color: var(--gray-mid);
+            font-size: 0.95rem;
+        }
+
+        .modal-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+
+        .modal-form .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+
+        .modal-form label {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--dark);
+        }
+
+        .modal-form .form-control {
+            background: var(--gray-light);
+            border: 1px solid #e0e0e0;
+            color: var(--dark);
+        }
+
+        .modal-form .form-control:focus {
+            background: var(--white);
+            border-color: var(--primary);
+        }
+
+        .modal-form .form-control option {
+            background: var(--white);
+            color: var(--dark);
+        }
+
+        /* Lightbox Modal */
+        .lightbox-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 3000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .lightbox-modal.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .lightbox-content {
+            max-width: 90vw;
+            max-height: 85vh;
+            position: relative;
+        }
+
+        .lightbox-content img {
+            max-width: 100%;
+            max-height: 85vh;
+            border-radius: 4px;
+            object-fit: contain;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: -50px;
+            right: 0;
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        .lightbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: var(--white);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 1.25rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+        }
+
+        .lightbox-nav:hover {
+            background: var(--primary);
+        }
+
+        .lightbox-prev {
+            left: -70px;
+        }
+
+        .lightbox-next {
+            right: -70px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            .service-row, .service-row.reverse {
+                grid-template-columns: 1fr;
+                direction: ltr !important;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+                grid-auto-rows: 220px;
+            }
+            .gallery-item.wide {
+                grid-column: span 2;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 80px;
+                left: 0;
+                width: 100%;
+                background-color: var(--dark);
+                flex-direction: column;
+                padding: 2rem;
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .mobile-menu-btn {
+                display: block;
+            }
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+            .form-group.full-width {
+                grid-column: span 1;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+            .lightbox-prev {
+                left: 10px;
+            }
+            .lightbox-next {
+                right: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sticky Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-shield-virus" style="color: var(--primary);"></i> MD <span>PEST</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#perkhidmatan">Perkhidmatan</a></li>
+                <li><a href="#pakej">Pakej</a></li>
+                <li><a href="#proses">Proses Kerja</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#" class="nav-cta open-modal-btn" data-service="Konsultasi Umum"><i class="fa-brands fa-whatsapp"></i> WhatsApp Kami</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu Utama">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <span class="section-badge">RED ALERT – PROFESSIONAL PEST CONTROL</span>
+                    <h1>JANGAN BIARKAN PEROSAK MENGGANGGU <span>KESELAMATAN & KESELESAAN</span> RUMAH & PREMIS ANDA.</h1>
+                    <p>MD PEST menyediakan perkhidmatan kawalan serangga dan haiwan perosak untuk membantu mengurus masalah perosak di rumah, pejabat dan premis perniagaan.</p>
+                    <div class="hero-btns">
+                        <button class="btn-primary open-modal-btn" data-service="Tempahan Pemeriksaan Asas"><i class="fa-solid fa-calendar-check"></i> TEMPAH PEMERIKSAAN</button>
+                        <a href="#perkhidmatan" class="btn-secondary"><i class="fa-solid fa-arrow-down"></i> LIHAT PERKHIDMATAN</a>
+                    </div>
+                    <div class="trust-indicators">
+                        <div class="trust-item">
+                            <strong>100%</strong>
+                            <span>Pemeriksaan Teliti</span>
+                        </div>
+                        <div class="trust-item">
+                            <strong>10+</strong>
+                            <span>Kepakaran Kawalan</span>
+                        </div>
+                        <div class="trust-item">
+                            <strong>Selamat</strong>
+                            <span>Kaedah Diiktiraf</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <h3><i class="fa-solid fa-triangle-exclamation"></i> Kategori Perosak Utama</h3>
+                    <div class="pest-tag-list">
+                        <span class="pest-tag"><i class="fa-solid fa-bug"></i> Anai-anai (Termites)</span>
+                        <span class="pest-tag"><i class="fa-solid fa-spider"></i> Lipas & Semut</span>
+                        <span class="pest-tag"><i class="fa-solid fa-otter"></i> Tikus (Rodents)</span>
+                        <span class="pest-tag"><i class="fa-solid fa-mosquito"></i> Nyamuk (Mosquitoes)</span>
+                        <span class="pest-tag"><i class="fa-solid fa-bed"></i> Pepijat (Bed Bugs)</span>
+                    </div>
+                    <div style="margin-top: 1.5rem; font-size: 0.9rem; color: #b0b0b0; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">
+                        <i class="fa-solid fa-circle-check" style="color: var(--primary-light);"></i> Khidmat nasihat percuma dan penilaian awal lokasi premis anda.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Problem Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Situasi Kritikal</span>
+                <h2>MASALAH PEROSAK BUKAN SEKADAR MENGGANGGU.</h2>
+                <p>Kenali tanda-tanda awal kehadiran perosak sebelum ia merosakkan harta benda dan mengancam kesihatan keluarga atau pekerja anda.</p>
+            </div>
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fa-solid fa-house-crack"></i></div>
+                    <h3>Anai-anai Menyerang Struktur Kayu</h3>
+                    <p>Musuh tersembunyi yang merosakkan rangka kayu, perabot terbina dalam dan merendahkan integriti struktur bangunan secara diam-diam.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fa-solid fa-utensils"></i></div>
+                    <h3>Lipas di Dapur & Ruang Makan</h3>
+                    <p>Pembawa pelbagai patogen berbahaya di kawasan penyediaan makanan, mencemarkan kebersihan serta menjejaskan imej premis perniagaan.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fa-solid fa-shield-cat"></i></div>
+                    <h3>Tikus di Stor & Premis</h3>
+                    <p>Mencemarkan stok barangan, menggigit pendawaian elektrik yang boleh mencetuskan litar pintas, serta membiak dengan pantas.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fa-solid fa-bugs"></i></div>
+                    <h3>Semut Muncul Berulang Kali</h3>
+                    <p>Koloni semut yang sukar dihapuskan sepenuhnya dengan semburan biasa kerana sarang tersembunyi di dalam dinding atau lantai.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fa-solid fa-mosquito"></i></div>
+                    <h3>Nyamuk Pembawa Penyakit</h3>
+                    <p>Ancaman denggi dan zika di sekitar kediaman atau kawasan persekitaran pejabat yang membahayakan kesihatan penghuni.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fa-solid fa-bed"></i></div>
+                    <h3>Pepijat di Tilam & Perabot</h3>
+                    <p>Gigitan pepijat menyebabkan kegatalan kulit yang teruk, mengganggu waktu rehat serta tidur malam di kediaman atau hotel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Perkhidmatan -->
+    <section id="perkhidmatan" class="section services-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Servis Profesional</span>
+                <h2>KENAL PASTI MASALAH. PILIH RAWATAN YANG SESUAI.</h2>
+                <p>Penyelesaian khusus dirangka mengikut jenis perosak dan tahap infestasi di premis anda.</p>
+            </div>
+
+            <div class="service-showcase-container">
+                <!-- 1. Termite Control -->
+                <div class="service-row">
+                    <img src="images (1).jpeg" alt="Termite Control" class="service-img" loading="lazy">
+                    <div class="service-info">
+                        <span class="service-category-label">Rawatan Khusus</span>
+                        <h3>Termite Control – Kawalan Anai-Anai</h3>
+                        <p>Kaedah pengesanan menyeluruh dan rawatan penghapusan koloni anai-anai hingga ke ratu untuk melindungi struktur bangunan.</p>
+                        <ul class="service-meta-list">
+                            <li><i class="fa-solid fa-check"></i> Masalah: KEROSAKAN STRUKTUR KAYU, KUSYEN & KABINET</li>
+                            <li><i class="fa-solid fa-check"></i> Lokasi Sesuai: RUMAH KEDIAMAN, PEJABAT & GUDANG</li>
+                        </ul>
+                        <button class="btn-primary open-modal-btn" data-service="Termite Control – Kawalan Anai-Anai"><i class="fa-solid fa-paper-plane"></i> PILIH SERVICE INI</button>
+                    </div>
+                </div>
+
+                <!-- 2. General Pest Control -->
+                <div class="service-row reverse">
+                    <img src="images.jpeg" alt="General Pest Control" class="service-img" loading="lazy">
+                    <div class="service-info">
+                        <span class="service-category-label">Perlindungan Menyeluruh</span>
+                        <h3>General Pest Control – Kawalan Serangga Umum</h3>
+                        <p>Rawatan bersepadu untuk mengawal populasi pelbagai serangga merangkumi lipas, semut, cicak dan serangga merangkak lain.</p>
+                        <ul class="service-meta-list">
+                            <li><i class="fa-solid fa-check"></i> Masalah: SERANGGA MERANGKAK BERULANG KALI</li>
+                            <li><i class="fa-solid fa-check"></i> Lokasi Sesuai: DAPUR, RUANG TAMU & KAWASAN UMUM</li>
+                        </ul>
+                        <button class="btn-primary open-modal-btn" data-service="General Pest Control – Kawalan Serangga Umum"><i class="fa-solid fa-paper-plane"></i> PILIH SERVICE INI</button>
+                    </div>
+                </div>
+
+                <!-- 3. Cockroach Control -->
+                <div class="service-row">
+                    <img src="images (2).jpeg" alt="Cockroach Control" class="service-img" loading="lazy">
+                    <div class="service-info">
+                        <span class="service-category-label">Kawalan Sanitasi</span>
+                        <h3>Cockroach Control – Kawalan Lipas</h3>
+                        <p>Teknik umpan gel dan semburan khusus di celah-celah tersembunyi yang menjadi sarang pembiakan lipas Jerman dan Amerika.</p>
+                        <ul class="service-meta-list">
+                            <li><i class="fa-solid fa-check"></i> Masalah: LIPAS DI KAWASAN PENYEDIAAN MAKANAN & STOR</li>
+                            <li><i class="fa-solid fa-check"></i> Lokasi Sesuai: RESTORAN, DAPUR RUMAH & KAFETERIA</li>
+                        </ul>
+                        <button class="btn-primary open-modal-btn" data-service="Cockroach Control – Kawalan Lipas"><i class="fa-solid fa-paper-plane"></i> PILIH SERVICE INI</button>
+                    </div>
+                </div>
+
+                <!-- 4. Rodent Control -->
+                <div class="service-row reverse">
+                    <img src="images (3).jpeg" alt="Rodent Control" class="service-img" loading="lazy">
+                    <div class="service-info">
+                        <span class="service-category-label">Keselamatan Premis</span>
+                        <h3>Rodent Control – Kawalan Tikus</h3>
+                        <p>Pemasangan stesen umpan keselamatan dan perangkap strategik untuk menyekat laluan serta menghapuskan tikus daripada merosakkan harta.</p>
+                        <ul class="service-meta-list">
+                            <li><i class="fa-solid fa-check"></i> Masalah: KEROSAKAN KABEL, BARANGAN STOR & NAJIS TIKUS</li>
+                            <li><i class="fa-solid fa-check"></i> Lokasi Sesuai: KILANG, GUDANG & PREMIS PERNIAGAAN</li>
+                        </ul>
+                        <button class="btn-primary open-modal-btn" data-service="Rodent Control – Kawalan Tikus"><i class="fa-solid fa-paper-plane"></i> PILIH SERVICE INI</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compact Grid for remaining 4 services -->
+            <div class="service-grid-compact">
+                <div class="compact-card">
+                    <div>
+                        <span class="service-category-label">Kesihatan Persekitaran</span>
+                        <h4>5. Mosquito Control – Kawalan Nyamuk</h4>
+                        <p>Semburan kabus (fogging) dan rawatan larvasid bagi memusnahkan tempat pembiakan jentik-jentik di persekitaran kediaman.</p>
+                    </div>
+                    <button class="btn-primary open-modal-btn" data-service="Mosquito Control – Kawalan Nyamuk" style="padding: 0.6rem 1rem; font-size: 0.85rem; width: 100%; justify-content: center;">PILIH SERVICE INI</button>
+                </div>
+                <div class="compact-card">
+                    <div>
+                        <span class="service-category-label">Kesihatan & Tidur</span>
+                        <h4>6. Bed Bug Control – Kawalan Pepijat</h4>
+                        <p>Rawatan haba atau semburan terarah yang berkesan membasmi pepijat serta telur di tilam dan celah perabot.</p>
+                    </div>
+                    <button class="btn-primary open-modal-btn" data-service="Bed Bug Control – Kawalan Pepijat" style="padding: 0.6rem 1rem; font-size: 0.85rem; width: 100%; justify-content: center;">PILIH SERVICE INI</button>
+                </div>
+                <div class="compact-card">
+                    <div>
+                        <span class="service-category-label">Kawalan Koloni</span>
+                        <h4>7. Ant Control – Kawalan Semut</h4>
+                        <p>Penggunaan umpan saintifik yang dibawa balik oleh semut ke sarang bagi menghapuskan ratu dan koloni secara tuntas.</p>
+                    </div>
+                    <button class="btn-primary open-modal-btn" data-service="Ant Control – Kawalan Semut" style="padding: 0.6rem 1rem; font-size: 0.85rem; width: 100%; justify-content: center;">PILIH SERVICE INI</button>
+                </div>
+                <div class="compact-card">
+                    <div>
+                        <span class="service-category-label">Sektor Komersial</span>
+                        <h4>8. Commercial Pest Control – Premis Perniagaan</h4>
+                        <p>Program kawalan perosak berjadual khas mematuhi piawaian kebersihan industri makanan, pejabat korporat dan kilang.</p>
+                    </div>
+                    <button class="btn-primary open-modal-btn" data-service="Commercial Pest Control – Kawalan Perosak Premis Perniagaan" style="padding: 0.6rem 1rem; font-size: 0.85rem; width: 100%; justify-content: center;">PILIH SERVICE INI</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Pakej & Harga -->
+    <section id="pakej" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Pilihan Pakej</span>
+                <h2>PAKEJ KAWALAN PEROSAK MENGIKUT KEPERLUAN ANDA.</h2>
+                <p>Pilih pakej yang selari dengan skop dan keperluan premis anda tanpa kos tersembunyi.</p>
+            </div>
+            <div class="pricing-grid">
+                <!-- A. Pakej Kediaman -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>A. Pakej Kediaman</h3>
+                        <div class="price-tag">Hubungi Untuk Sebut Harga</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Pemeriksaan kawasan rumah</li>
+                        <li><i class="fa-solid fa-check"></i> Kenal pasti jenis perosak</li>
+                        <li><i class="fa-solid fa-check"></i> Cadangan kaedah kawalan</li>
+                        <li><i class="fa-solid fa-check"></i> Rawatan mengikut skop dipersetujui</li>
+                    </ul>
+                    <button class="btn-primary open-modal-btn" data-service="Pakej Kediaman" style="width: 100%; justify-content: center;">PILIH PAKEJ INI</button>
+                </div>
+
+                <!-- B. Pakej Premis Perniagaan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>B. Pakej Premis Perniagaan</h3>
+                        <div class="price-tag">Hubungi Untuk Sebut Harga</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Pemeriksaan kawasan operasi</li>
+                        <li><i class="fa-solid fa-check"></i> Kenal pasti lokasi berisiko</li>
+                        <li><i class="fa-solid fa-check"></i> Cadangan rawatan profesional</li>
+                        <li><i class="fa-solid fa-check"></i> Pelaksanaan kawalan skop kerja</li>
+                    </ul>
+                    <button class="btn-primary open-modal-btn" data-service="Pakej Premis Perniagaan" style="width: 100%; justify-content: center;">PILIH PAKEJ INI</button>
+                </div>
+
+                <!-- C. Pakej Kawalan Anai-Anai -->
+                <div class="pricing-card featured">
+                    <div class="pricing-header">
+                        <h3>C. Pakej Kawalan Anai-Anai</h3>
+                        <div class="price-tag">Hubungi Untuk Sebut Harga</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Pemeriksaan tanda anai-anai</li>
+                        <li><i class="fa-solid fa-check"></i> Penilaian kawasan terjejas</li>
+                        <li><i class="fa-solid fa-check"></i> Cadangan kaedah rawatan</li>
+                        <li><i class="fa-solid fa-check"></i> Skop rawatan ikut keadaan premis</li>
+                    </ul>
+                    <button class="btn-primary open-modal-btn" data-service="Pakej Kawalan Anai-Anai" style="width: 100%; justify-content: center;">PILIH PAKEJ INI</button>
+                </div>
+
+                <!-- D. Pakej Kawalan Berkala -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>D. Pakej Kawalan Berkala</h3>
+                        <div class="price-tag">Hubungi Untuk Sebut Harga</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Pemeriksaan berkala berjadual</li>
+                        <li><i class="fa-solid fa-check"></i> Pemantauan masalah perosak</li>
+                        <li><i class="fa-solid fa-check"></i> Cadangan tindakan susulan</li>
+                        <li><i class="fa-solid fa-check"></i> Jadual perkhidmatan fleksibel</li>
+                    </ul>
+                    <button class="btn-primary open-modal-btn" data-service="Pakej Kawalan Berkala" style="width: 100%; justify-content: center;">PILIH PAKEJ INI</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Proses Kerja -->
+    <section id="proses" class="section process-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" style="background: rgba(229,57,53,0.2); color: var(--primary-light);">Langkah Mudah</span>
+                <h2>MUDAH. JELAS. BERMULA DENGAN PEMERIKSAAN.</h2>
+                <p>Empat langkah mudah mendapatkan khidmat kawalan perosak bersama MD PEST.</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <h3>Hubungi MD PEST</h3>
+                    <p>Hubungi kami melalui WhatsApp atau borang pertanyaan untuk memulakan perbincangan.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <h3>Terangkan Masalah</h3>
+                    <p>Berikan maklumat jenis perosak yang dihadapi serta lokasi premis anda dengan terperinci.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <h3>Pemeriksaan & Cadangan</h3>
+                    <p>Juruteknik kami menjalankan pemeriksaan serta mencadangkan kaedah kawalan yang paling berkesan.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <h3>Pelaksanaan Rawatan</h3>
+                    <p>Rawatan dijalankan secara profesional berdasarkan skop kerja yang telah dipersetujui.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Galeri -->
+    <section id="galeri" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">GALERI KERJA KAMI</span>
+                <h2>AKTIVITI KAWALAN PEROSAK.</h2>
+                <p>Gambaran operasi sebenar juruteknik MD PEST dalam menguruskan masalah makhluk perosak.</p>
+            </div>
+
+            <!-- Gallery Filters -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="rawatan">Aktiviti Rawatan</button>
+                <button class="filter-btn" data-filter="pemeriksaan">Pemeriksaan Premis</button>
+                <button class="filter-btn" data-filter="peralatan">Peralatan</button>
+                <button class="filter-btn" data-filter="anai-anai">Kawalan Anai-Anai</button>
+            </div>
+
+            <!-- Gallery Masonry Grid -->
+            <div class="gallery-grid">
+                <div class="gallery-item tall" data-category="rawatan" onclick="openLightbox(0)">
+                    <img src="galeri 1.jpeg" alt="Rawatan Kawalan Serangga" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category-badge">Aktiviti Rawatan</span>
+                        <h4>Semburan Sanitasi & Kawalan Serangga</h4>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="pemeriksaan" onclick="openLightbox(1)">
+                    <img src="galeri 2.jpeg" alt="Pemeriksaan Premis" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category-badge">Pemeriksaan Premis</span>
+                        <h4>Penilaian Teliti Struktur Kayu</h4>
+                    </div>
+                </div>
+                <div class="gallery-item wide" data-category="anai-anai" onclick="openLightbox(2)">
+                    <img src="galeri 3.jpeg" alt="Kawalan Anai-Anai" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category-badge">Kawalan Anai-Anai</span>
+                        <h4>Inspeksi Koloni Anai-Anai</h4>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="peralatan" onclick="openLightbox(3)">
+                    <img src="galeri 4.png" alt="Peralatan Pest Control" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category-badge">Peralatan</span>
+                        <h4>Peralatan Profesional Terkini</h4>
+                    </div>
+                </div>
+                <div class="gallery-item tall" data-category="rawatan" onclick="openLightbox(4)">
+                    <img src="galeri 5.jpeg" alt="Kawalan Tikus" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category-badge">Aktiviti Rawatan</span>
+                        <h4>Pemasangan Stesen Kawalan Rodent</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Kawasan Perkhidmatan -->
+    <section class="section coverage-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Liputan Premis</span>
+                <h2>KHIDMAT KAWALAN PEROSAK UNTUK PELBAGAI JENIS PREMIS.</h2>
+                <p>Kami bersedia melayani pelbagai skala hartanah dan bangunan kediaman serta komersial.</p>
+            </div>
+            <div class="coverage-grid">
+                <div class="coverage-card">
+                    <div class="coverage-icon"><i class="fa-solid fa-house"></i></div>
+                    <h3>Rumah Kediaman</h3>
+                </div>
+                <div class="coverage-card">
+                    <div class="coverage-icon"><i class="fa-solid fa-building"></i></div>
+                    <h3>Apartment & Kondominium</h3>
+                </div>
+                <div class="coverage-card">
+                    <div class="coverage-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <h3>Pejabat Korporat</h3>
+                </div>
+                <div class="coverage-card">
+                    <div class="coverage-icon"><i class="fa-solid fa-store"></i></div>
+                    <h3>Kedai & Runcit</h3>
+                </div>
+                <div class="coverage-card">
+                    <div class="coverage-icon"><i class="fa-solid fa-utensils"></i></div>
+                    <h3>Restoran & Kafe</h3>
+                </div>
+                <div class="coverage-card">
+                    <div class="coverage-icon"><i class="fa-solid fa-warehouse"></i></div>
+                    <h3>Gudang Simpanan</h3>
+                </div>
+                <div class="coverage-card">
+                    <div class="coverage-icon"><i class="fa-solid fa-industry"></i></div>
+                    <h3>Kilang Pengeluaran</h3>
+                </div>
+                <div class="coverage-card">
+                    <div class="coverage-icon"><i class="fa-solid fa-city"></i></div>
+                    <h3>Premis Komersial</h3>
+                </div>
+            </div>
+            <div class="coverage-notice">
+                <i class="fa-solid fa-location-dot" style="color: var(--primary);"></i> <strong>Nota Kawasan Operasi:</strong> Sila hubungi kami untuk pengesahan jadual perkhidmatan di lokasi sebenar operasi anda.
+            </div>
+        </div>
+    </section>
+
+    <!-- Section FAQ -->
+    <section id="faq" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Soalan Lazim</span>
+                <h2>SOALAN LAZIM (FAQ)</h2>
+                <p>Jawapan kepada persoalan biasa mengenai perkhidmatan kawalan perosak MD PEST.</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>1. Apakah jenis perosak yang boleh dikawal oleh MD PEST?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Kami menyediakan kawalan komprehensif untuk anai-anai, lipas, tikus, nyamuk, semut, pepijat dan pelbagai jenis serangga perosak lain di kediaman atau premis perniagaan.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>2. Adakah MD PEST menyediakan pemeriksaan premis?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Ya, juruteknik kami akan menjalankan pemeriksaan terperinci di lokasi bagi mengenal pasti punca masalah, tahap infestasi serta mencadangkan kaedah rawatan yang paling sesuai.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>3. Berapa lama proses rawatan pest control?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Tempoh rawatan bergantung kepada saiz premis dan jenis masalah perosak, kebiasaannya mengambil masa antara 1 hingga 3 jam untuk rawatan standard.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>4. Bagaimana harga perkhidmatan ditentukan?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Harga ditentukan berdasarkan saiz kawasan (luas premis), jenis perosak yang dihadapi serta tahap keterukan masalah selepas pemeriksaan dilakukan.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>5. Adakah rawatan sesuai untuk rumah yang mempunyai haiwan peliharaan?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Ya, kami menggunakan kaedah dan bahan yang mematuhi garis panduan keselamatan. Walau bagaimanapun, langkah berjaga-jaga khusus akan dinasihatkan oleh juruteknik semasa rawatan.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>6. Perlukah penghuni keluar semasa rawatan?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Bergantung kepada jenis rawatan yang dijalankan. Untuk sesetengah kaedah semburan menyeluruh, penghuni dinasihatkan keluar seketika untuk tempoh masa tertentu demi keselamatan.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>7. Adakah rawatan perlu dilakukan lebih daripada sekali?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Bagi masalah perosak tertentu atau pencegahan jangka panjang, rawatan berkala adalah sangat disyorkan bagi memastikan premis terus bebas daripada gangguan perosak.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>8. Bagaimana cara untuk mendapatkan sebut harga?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Anda boleh terus klik butang WhatsApp di website ini atau mengisi borang pertanyaan untuk mendapatkan nasihat serta sebut harga percuma daripada pihak kami.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Borang Pertanyaan Utama -->
+    <section class="section inquiry-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" style="background: rgba(229,57,53,0.2); color: var(--primary-light);">Hubungi Kami</span>
+                <h2>ADA MASALAH PEROSAK? CERITAKAN KEPADA KAMI.</h2>
+                <p>Lengkapkan butiran di bawah dan terus hantarkan pertanyaan anda melalui WhatsApp dengan mudah.</p>
+            </div>
+            <div class="inquiry-form-card">
+                <form id="mainInquiryForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="mainName">Nama Penuh *</label>
+                            <input type="text" id="mainName" class="form-control" required placeholder="Nama anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="mainPhone">Nombor Telefon *</label>
+                            <input type="tel" id="mainPhone" class="form-control" required placeholder="Contoh: 0123456789">
+                        </div>
+                        <div class="form-group">
+                            <label for="mainEmail">Email (Pilihan)</label>
+                            <input type="email" id="mainEmail" class="form-control" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="mainPremise">Jenis Premis *</label>
+                            <select id="mainPremise" class="form-control" required>
+                                <option value="">Sila Pilih</option>
+                                <option value="Rumah">Rumah</option>
+                                <option value="Pejabat">Pejabat</option>
+                                <option value="Kedai">Kedai</option>
+                                <option value="Kilang">Kilang</option>
+                                <option value="Lain-lain">Lain-lain</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mainLocation">Lokasi / Kawasan *</label>
+                            <input type="text" id="mainLocation" class="form-control" required placeholder="Contoh: Shah Alam, Selangor">
+                        </div>
+                        <div class="form-group">
+                            <label for="mainPest">Jenis Perosak *</label>
+                            <select id="mainPest" class="form-control" required>
+                                <option value="">Sila Pilih</option>
+                                <option value="Anai-anai">Anai-anai</option>
+                                <option value="Lipas">Lipas</option>
+                                <option value="Tikus">Tikus</option>
+                                <option value="Nyamuk">Nyamuk</option>
+                                <option value="Semut">Semut</option>
+                                <option value="Pepijat">Pepijat</option>
+                                <option value="Pelbagai / Umum">Pelbagai / Umum</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="mainDesc">Penerangan Masalah *</label>
+                            <textarea id="mainDesc" class="form-control" required placeholder="Terangkan sedikit sebanyak masalah perosak yang anda hadapi..."></textarea>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="mainTime">Masa Sesuai Untuk Dihubungi</label>
+                            <input type="text" id="mainTime" class="form-control" placeholder="Contoh: Waktu Pejabat / Selepas 5 Petang">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; font-size: 1.1rem; padding: 1.1rem;"><i class="fa-brands fa-whatsapp"></i> HANTAR PERTANYAAN MELALUI WHATSAPP</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo" style="margin-bottom: 1rem; display: inline-flex;">
+                        <i class="fa-solid fa-shield-virus" style="color: var(--primary);"></i> MD <span>PEST</span>
+                    </a>
+                    <p>Khidmat kawalan serangga dan haiwan perosak profesional yang komited membantu menyelesaikan masalah perosak di kediaman dan premis perniagaan anda.</p>
+                    <div style="display: flex; gap: 1rem; font-size: 1.25rem;">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp" class="whatsapp-direct-link"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Pautan Pantas</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Utama</a></li>
+                        <li><a href="#perkhidmatan">Perkhidmatan</a></li>
+                        <li><a href="#pakej">Pakej Harga</a></li>
+                        <li><a href="#proses">Proses Kerja</a></li>
+                        <li><a href="#faq">Soalan Lazim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Perkhidmatan</h4>
+                    <ul class="footer-links">
+                        <li><a href="#perkhidmatan">Kawalan Anai-Anai</a></li>
+                        <li><a href="#perkhidmatan">Kawalan Lipas</a></li>
+                        <li><a href="#perkhidmatan">Kawalan Tikus</a></li>
+                        <li><a href="#perkhidmatan">Kawalan Nyamuk</a></li>
+                        <li><a href="#perkhidmatan">Premis Perniagaan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Hubungi Kami</h4>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+601XXXXXXXXX</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>info@mdpest.com.my</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Alamat Premis Operasi Placeholder, Kuala Lumpur, Malaysia</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-clock"></i>
+                            <span>Isnin - Ahad: 8:00 AM - 7:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> MD PEST. Hak Cipta Terpelihara.</p>
+                <p>Perkhidmatan Kawalan Perosak Profesional Malaysia</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="#" class="floating-whatsapp whatsapp-direct-link" aria-label="WhatsApp Kami">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Modal Popup Borang Servis / Pakej -->
+    <div class="modal-overlay" id="serviceModal">
+        <div class="modal-container">
+            <button class="modal-close" id="modalCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <span class="section-badge">Tempahan & Pertanyaan</span>
+                <h3 id="modalTitle">Tempahan Perkhidmatan</h3>
+                <p>Lengkapkan maklumat di bawah untuk terus berhubung dengan juruteknik kami melalui WhatsApp.</p>
+            </div>
+            <form class="modal-form" id="popupForm">
+                <div class="form-group">
+                    <label for="popupService">Perkhidmatan / Pakej Pilihan</label>
+                    <input type="text" id="popupService" class="form-control" readonly style="font-weight: 700; color: var(--primary);">
+                </div>
+                <div class="form-group">
+                    <label for="popupName">Nama Penuh *</label>
+                    <input type="text" id="popupName" class="form-control" required placeholder="Nama anda">
+                </div>
+                <div class="form-group">
+                    <label for="popupPhone">Nombor Telefon *</label>
+                    <input type="tel" id="popupPhone" class="form-control" required placeholder="Contoh: 0123456789">
+                </div>
+                <div class="form-group">
+                    <label for="popupPremise">Jenis Premis *</label>
+                    <select id="popupPremise" class="form-control" required>
+                        <option value="">Sila Pilih</option>
+                        <option value="Rumah">Rumah</option>
+                        <option value="Pejabat">Pejabat</option>
+                        <option value="Kedai">Kedai</option>
+                        <option value="Kilang">Kilang</option>
+                        <option value="Lain-lain">Lain-lain</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="popupLocation">Kawasan / Lokasi *</label>
+                    <input type="text" id="popupLocation" class="form-control" required placeholder="Contoh: Petaling Jaya">
+                </div>
+                <div class="form-group">
+                    <label for="popupPest">Jenis Masalah Perosak *</label>
+                    <input type="text" id="popupPest" class="form-control" required placeholder="Contoh: Anai-anai / Tikus">
+                </div>
+                <div class="form-group">
+                    <label for="popupLevel">Tahap Masalah *</label>
+                    <select id="popupLevel" class="form-control" required>
+                        <option value="">Sila Pilih</option>
+                        <option value="Ringan">Ringan</option>
+                        <option value="Sederhana">Sederhana</option>
+                        <option value="Serius">Serius</option>
+                        <option value="Tidak Pasti">Tidak Pasti</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="popupNote">Catatan Tambahan (Pilihan)</label>
+                    <textarea id="popupNote" class="form-control" placeholder="Nyatakan sebarang maklumat tambahan..."></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;"><i class="fa-brands fa-whatsapp"></i> HANTAR PERTANYAAN MELALUI WHATSAPP</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-content">
+            <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+            <button class="lightbox-nav lightbox-prev" onclick="prevLightboxImage()"><i class="fa-solid fa-chevron-left"></i></button>
+            <img id="lightboxImg" src="" alt="Lightbox Image">
+            <button class="lightbox-nav lightbox-next" onclick="nextLightboxImage()"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Global WhatsApp Number Placeholder
+        const WHATSAPP_NUMBER = "601XXXXXXXXX";
+
+        // Set Current Year in Footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = mobileMenuBtn.querySelector('i');
+            if(navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark');
+            } else {
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileMenuBtn.querySelector('i').className = 'fa-solid fa-bars';
+            });
+        });
+
+        // FAQ Accordion Functionality
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const questionBtn = item.querySelector('.faq-question');
+            questionBtn.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                faqItems.forEach(i => i.classList.remove('active'));
+                if(!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
+
+        // Gallery Filtering
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.getAttribute('data-filter');
+
+                galleryItems.forEach(item => {
+                    if(filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Lightbox Array & Logic
+        const lightboxImages = [
+            "https://images.unsplash.com/photo-1584467735871-8e853e843c08?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1541888946425-d0fbb18f86f8?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1615715758069-b57002c2e5b8?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?auto=format&fit=crop&w=1200&q=80"
+        ];
+        let currentLightboxIndex = 0;
+        const lightboxModal = document.getElementById('lightboxModal');
+        const lightboxImg = document.getElementById('lightboxImg');
+
+        function openLightbox(index) {
+            currentLightboxIndex = index;
+            lightboxImg.src = lightboxImages[currentLightboxIndex];
+            lightboxModal.classList.add('active');
+        }
+
+        function closeLightbox() {
+            lightboxModal.classList.remove('active');
+        }
+
+        function prevLightboxImage() {
+            currentLightboxIndex = (currentLightboxIndex - 1 + lightboxImages.length) % lightboxImages.length;
+            lightboxImg.src = lightboxImages[currentLightboxIndex];
+        }
+
+        function nextLightboxImage() {
+            currentLightboxIndex = (currentLightboxIndex + 1) % lightboxImages.length;
+            lightboxImg.src = lightboxImages[currentLightboxIndex];
+        }
+
+        lightboxModal.addEventListener('click', (e) => {
+            if(e.target === lightboxModal) closeLightbox();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if(e.key === 'Escape') {
+                closeLightbox();
+                closeModal();
+            }
+            if(lightboxModal.classList.contains('active')) {
+                if(e.key === 'ArrowLeft') prevLightboxImage();
+                if(e.key === 'ArrowRight') nextLightboxImage();
+            }
+        });
+
+        // Modal Popup Logic
+        const serviceModal = document.getElementById('serviceModal');
+        const modalCloseBtn = document.getElementById('modalCloseBtn');
+        const modalTitle = document.getElementById('modalTitle');
+        const popupServiceInput = document.getElementById('popupService');
+
+        document.querySelectorAll('.open-modal-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const serviceName = btn.getAttribute('data-service') || 'Perkhidmatan MD PEST';
+                modalTitle.textContent = "Tempahan: " + serviceName;
+                popupServiceInput.value = serviceName;
+                serviceModal.classList.add('active');
+            });
+        });
+
+        function closeModal() {
+            serviceModal.classList.remove('active');
+        }
+
+        modalCloseBtn.addEventListener('click', closeModal);
+        serviceModal.addEventListener('click', (e) => {
+            if(e.target === serviceModal) closeModal();
+        });
+
+        // WhatsApp Direct Links Setup
+        document.querySelectorAll('.whatsapp-direct-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const text = encodeURIComponent("Hai MD PEST, saya ingin mendapatkan maklumat lanjut dan sebut harga untuk perkhidmatan kawalan perosak.");
+                window.open(`https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${text}`, '_blank');
+            });
+        });
+
+        // Popup Form Submission to WhatsApp
+        document.getElementById('popupForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const service = popupServiceInput.value;
+            const name = document.getElementById('popupName').value;
+            const phone = document.getElementById('popupPhone').value;
+            const premise = document.getElementById('popupPremise').value;
+            const location = document.getElementById('popupLocation').value;
+            const pest = document.getElementById('popupPest').value;
+            const level = document.getElementById('popupLevel').value;
+            const note = document.getElementById('popupNote').value;
+
+            const message = `*PERTANYAAN PERKHIDMATAN MD PEST*\n\n` +
+                            `*Pilihan:* ${service}\n` +
+                            `*Nama:* ${name}\n` +
+                            `*No. Telefon:* ${phone}\n` +
+                            `*Jenis Premis:* ${premise}\n` +
+                            `*Lokasi:* ${location}\n` +
+                            `*Jenis Perosak:* ${pest}\n` +
+                            `*Tahap Masalah:* ${level}\n` +
+                            `*Catatan:* ${note || 'Tiada'}`;
+
+            const encoded = encodeURIComponent(message);
+            window.open(`https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${encoded}`, '_blank');
+            closeModal();
+        });
+
+        // Main Inquiry Form Submission to WhatsApp
+        document.getElementById('mainInquiryForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('mainName').value;
+            const phone = document.getElementById('mainPhone').value;
+            const email = document.getElementById('mainEmail').value;
+            const premise = document.getElementById('mainPremise').value;
+            const location = document.getElementById('mainLocation').value;
+            const pest = document.getElementById('mainPest').value;
+            const desc = document.getElementById('mainDesc').value;
+            const time = document.getElementById('mainTime').value;
+
+            const message = `*BORANG PERTANYAAN UTAMA MD PEST*\n\n` +
+                            `*Nama Penuh:* ${name}\n` +
+                            `*No. Telefon:* ${phone}\n` +
+                            `*Email:* ${email || 'Tidak diset'}\n` +
+                            `*Jenis Premis:* ${premise}\n` +
+                            `*Lokasi:* ${location}\n` +
+                            `*Jenis Perosak:* ${pest}\n` +
+                            `*Penerangan:* ${desc}\n` +
+                            `*Masa Dihubungi:* ${time || 'Bila-bila masa'}`;
+
+            const encoded = encodeURIComponent(message);
+            window.open(`https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${encoded}`, '_blank');
+        });
+    </script>
+</body>
+</html>
